@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1000000000000000000001 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = AA1000000000000000000010 /* KeyboardShortcuts */; };
+		AA1000000000000000000021 /* AnythingBarCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000020 /* AnythingBarCore.framework */; };
+		AA1000000000000000000033 /* AnythingBarCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000020 /* AnythingBarCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA1000000000000000000042 /* AnythingBarCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000020 /* AnythingBarCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA1000000000000000000028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1000000000000000000008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA1000000000000000000023;
+			remoteInfo = AnythingBarCore;
+		};
+		AA1000000000000000000048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1000000000000000000008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA1000000000000000000023;
+			remoteInfo = AnythingBarCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA1000000000000000000032 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA1000000000000000000033 /* AnythingBarCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA1000000000000000000002 /* AnythingBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnythingBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1000000000000000000020 /* AnythingBarCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnythingBarCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1000000000000000000040 /* AnythingBarCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnythingBarCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA1000000000000000000003 /* AnythingBar */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/AnythingBar;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000022 /* AnythingBarCore */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/AnythingBarCore;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000041 /* AnythingBarCoreTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tests/AnythingBarCoreTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1000000000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1000000000000000000001 /* KeyboardShortcuts in Frameworks */,
+				AA1000000000000000000021 /* AnythingBarCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1000000000000000000025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1000000000000000000045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1000000000000000000042 /* AnythingBarCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1000000000000000000005 = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000003 /* AnythingBar */,
+				AA1000000000000000000022 /* AnythingBarCore */,
+				AA1000000000000000000041 /* AnythingBarCoreTests */,
+				AA1000000000000000000006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000002 /* AnythingBar.app */,
+				AA1000000000000000000020 /* AnythingBarCore.framework */,
+				AA1000000000000000000040 /* AnythingBarCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1000000000000000000007 /* AnythingBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1000000000000000000011 /* Build configuration list for PBXNativeTarget "AnythingBar" */;
+			buildPhases = (
+				AA1000000000000000000016 /* Sources */,
+				AA1000000000000000000004 /* Frameworks */,
+				AA1000000000000000000017 /* Resources */,
+				AA1000000000000000000032 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA1000000000000000000027 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA1000000000000000000003 /* AnythingBar */,
+			);
+			name = AnythingBar;
+			packageProductDependencies = (
+				AA1000000000000000000010 /* KeyboardShortcuts */,
+			);
+			productName = AnythingBar;
+			productReference = AA1000000000000000000002 /* AnythingBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA1000000000000000000023 /* AnythingBarCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1000000000000000000029 /* Build configuration list for PBXNativeTarget "AnythingBarCore" */;
+			buildPhases = (
+				AA1000000000000000000024 /* Sources */,
+				AA1000000000000000000025 /* Frameworks */,
+				AA1000000000000000000026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA1000000000000000000022 /* AnythingBarCore */,
+			);
+			name = AnythingBarCore;
+			packageProductDependencies = (
+			);
+			productName = AnythingBarCore;
+			productReference = AA1000000000000000000020 /* AnythingBarCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA1000000000000000000043 /* AnythingBarCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1000000000000000000049 /* Build configuration list for PBXNativeTarget "AnythingBarCoreTests" */;
+			buildPhases = (
+				AA1000000000000000000044 /* Sources */,
+				AA1000000000000000000045 /* Frameworks */,
+				AA1000000000000000000046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA1000000000000000000047 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA1000000000000000000041 /* AnythingBarCoreTests */,
+			);
+			name = AnythingBarCoreTests;
+			packageProductDependencies = (
+			);
+			productName = AnythingBarCoreTests;
+			productReference = AA1000000000000000000040 /* AnythingBarCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1000000000000000000008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					AA1000000000000000000007 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					AA1000000000000000000023 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					AA1000000000000000000043 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = AA1000000000000000000023;
+					};
+				};
+			};
+			buildConfigurationList = AA1000000000000000000012 /* Build configuration list for PBXProject "AnythingBar" */;
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				ja,
+			);
+			mainGroup = AA1000000000000000000005;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AA1000000000000000000009 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AA1000000000000000000006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+				targets = (
+					AA1000000000000000000007 /* AnythingBar */,
+					AA1000000000000000000023 /* AnythingBarCore */,
+					AA1000000000000000000043 /* AnythingBarCoreTests */,
+				);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1000000000000000000017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1000000000000000000026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1000000000000000000046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1000000000000000000016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1000000000000000000024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1000000000000000000044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA1000000000000000000027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA1000000000000000000023 /* AnythingBarCore */;
+			targetProxy = AA1000000000000000000028 /* PBXContainerItemProxy */;
+		};
+		AA1000000000000000000047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA1000000000000000000023 /* AnythingBarCore */;
+			targetProxy = AA1000000000000000000048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA1000000000000000000013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA1000000000000000000014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AA1000000000000000000018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mamorukomo.AnythingBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		AA1000000000000000000019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mamorukomo.AnythingBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		AA1000000000000000000030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mamorukomo.AnythingBarCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		AA1000000000000000000031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mamorukomo.AnythingBarCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		AA1000000000000000000050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mamorukomo.AnythingBarCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = AnythingBarCore;
+			};
+			name = Debug;
+		};
+		AA1000000000000000000051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mamorukomo.AnythingBarCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = AnythingBarCore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1000000000000000000011 /* Build configuration list for PBXNativeTarget "AnythingBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1000000000000000000018 /* Debug */,
+				AA1000000000000000000019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1000000000000000000012 /* Build configuration list for PBXProject "AnythingBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1000000000000000000013 /* Debug */,
+				AA1000000000000000000014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1000000000000000000029 /* Build configuration list for PBXNativeTarget "AnythingBarCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1000000000000000000030 /* Debug */,
+				AA1000000000000000000031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1000000000000000000049 /* Build configuration list for PBXNativeTarget "AnythingBarCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1000000000000000000050 /* Debug */,
+				AA1000000000000000000051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA1000000000000000000009 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA1000000000000000000010 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA1000000000000000000009 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AA1000000000000000000008 /* Project object */;
+}
