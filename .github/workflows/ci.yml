@@ -47,3 +47,20 @@ jobs:
           -derivedDataPath "$RUNNER_TEMP/AnythingBarDerivedData"
           CODE_SIGNING_ALLOWED=NO
           test
+
+      - name: Package app
+        if: github.event_name != 'pull_request'
+        run: |
+          APP_PATH="$RUNNER_TEMP/AnythingBarDerivedData/Build/Products/Debug/AnythingBar.app"
+          codesign --force --deep --sign - "$APP_PATH"
+          codesign --verify --deep --strict "$APP_PATH"
+          ditto -c -k --sequesterRsrc --keepParent "$APP_PATH" "$RUNNER_TEMP/AnythingBar.zip"
+
+      - name: Upload app
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: AnythingBar-macOS
+          path: ${{ runner.temp }}/AnythingBar.zip
+          if-no-files-found: error
+          retention-days: 7
